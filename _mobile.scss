@@ -1,0 +1,251 @@
+@media(max-width: 767px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+   
+    .top{
+        
+        
+        background-color: #E1FF8F;
+        background-image:url(img/Vector.png), url(img/mobilstar2.png),url(img/mobilstar3.png),url(img/mobil.png),url(img/mobilstar5.png);
+        background-position: right 0px top 0px, 37px 97px, 91px 64px, right 34px bottom 79px, right 86px bottom 125px;
+        background-repeat: no-repeat;
+        &__content{
+        
+            padding-top: 147px;
+            
+            
+        }
+        &__title{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: rgb(32, 32, 39);
+            padding-bottom: 24px;
+        }
+        
+        &__text{
+            color: rgb(32, 32, 39);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: center;
+            padding-bottom: 36px;
+        }
+        &__link-box{
+            display: flex;
+            justify-content: center;
+        }
+        &__link{
+            box-sizing: border-box;
+            border: 1px solid rgb(32, 32, 39);
+            border-radius: 60px;
+            background: rgb(32, 32, 39);
+            width: 285px;
+            height: 55px;
+            padding: 16px 28px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 141.69%;
+            letter-spacing: 0%;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            
+        }
+    }
+    
+    
+    
+    .animation{
+        margin-top: 131px;
+        height: 51px;
+        background-color: rgb(188, 236, 48);
+    }
+    
+    .for{
+        
+        // background-image:;
+        // background-position: ;
+        background-repeat: no-repeat;
+    
+    }
+    .games{
+        display: none;
+        &__heading{
+            color: rgb(255, 255, 255);
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 78px;
+            letter-spacing: 0px;
+            text-align: left;
+            padding-top: 94px;
+        }
+        &__text{
+            color: rgb(255, 255, 255);
+            padding-top: 24px;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        &-box{
+            padding-bottom: 144px;
+            padding-top: 72px;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: auto;
+            gap: 32px;
+            position: relative;
+        }
+        &-box__imeg{
+            position: absolute;
+            right: -122px;
+            margin-top: -182px;
+            z-index: 0;
+        
+        
+        }
+    }
+    
+    
+    
+    .game{
+        z-index: 0;
+        border-radius: 30px;
+        grid-column: span 4;
+        grid-row: span 6;
+        background-color: rgb(255, 255, 255);
+        transition: 1s;
+        &:hover{
+            transform: scale(1.1);
+            transition: 1s;
+        }
+        &__info{
+            padding: 32px 32px 32px 36px;
+        }
+        &__big1{
+            grid-row: span 7;
+        }
+        &__big2{
+            grid-row: span 5;
+        }
+        
+        &__number{
+            background-color: rgb(247, 247, 247);
+            width: 79px;
+            padding-top: 8px;
+            padding-bottom: 10px;
+            
+            padding-left: 16px;
+            padding-right: 16px;
+            color: rgb(32, 32, 39);
+            
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 110%;
+            letter-spacing: 0px;
+            text-align: center;
+            height: 18px;
+            border-radius: 52px;
+        }
+        
+        &__name{
+            padding-top: 16px;
+            color: rgb(32, 32, 39);
+            
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+    }
+    .top2{
+        background-image: none;
+
+    }
+    .block-play{
+        padding-bottom: 48px;
+        gap: 24px;
+    }
+    .play{
+        &__game{
+           
+           display: flex;
+            flex-direction: column;
+        }
+        &__heading{
+            padding-top: 48px;
+            padding-bottom: 48px;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px; 
+        }
+        &__info{
+            grid-row: auto;
+            grid-column: auto;
+            padding: 29px;
+        }
+        &__imeg{
+            order:  -1;
+        }       
+        &__imeg1{
+            width: 343px;
+            
+
+            
+        }
+        &__name{
+            padding-bottom: 16px;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        &__description{
+            padding-bottom: 32px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        &__btn{
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 141.69%;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+    }
+    
+    
+    .footer{
+        
+        height: 100px;
+        background-color: #BDED35;
+        
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        
+    }
+}
+
+        
+    
+        
+        
+           
+            
+            
