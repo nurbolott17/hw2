@@ -84,3 +84,5 @@ switch (monthNumber) {
         alert('Нет такого номера месяца')
         break;
 }
+
+// Все сделанно
