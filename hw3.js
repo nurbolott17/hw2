@@ -23,7 +23,7 @@ if (c > 0 && c < 10) { console.log('Верно')
 let d = 232
 let e = 160
 
-if (d === 100 || c === 100) {alert('Верно')
+if (d > 100 || c > 100) {alert('Верно')
     
 } else {
     alert('Неверно')
