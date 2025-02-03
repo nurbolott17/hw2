@@ -1,0 +1,32 @@
+@media(min-width:768px) and (max-width:1024px){
+    .center{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .top{
+        background-image:url(img/Vector.png), url(img/star2.svg),url(img/star3.svg),url(img/star5.svg),url(img/star4.svg);
+        background-position: right 0px top 0px, 43px 64px, 116px 49px, right 200px bottom 130px, right 255px bottom 155px;
+        &__content{
+            padding-top: 190px;
+        }
+    }
+    .for{
+        background-image:url(img/Star\ 11.png),url(img/Star\ 12.png) ;
+        background-position:  25px 770px, 40px 822px;
+    }
+    .games{
+        padding-bottom: 50px;
+    }
+    .list-games{
+        padding-bottom: 100px;
+    }
+    .block-games__heading{
+        padding-top: 26px;
+        padding-bottom: 32px;
+    }
+    .play{
+        &__imeg{
+            max-width: 350px;
+        }
+    }
+}
