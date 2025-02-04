@@ -6,9 +6,10 @@
     .top{
         background-image:url(img/Vector.png), url(img/star2.svg),url(img/star3.svg),url(img/star5.svg),url(img/star4.svg);
         background-position: right 0px top 0px, 43px 64px, 116px 49px, right 200px bottom 130px, right 255px bottom 155px;
-        &__content{
-            padding-top: 190px;
-        }
+        
+    }
+    .content{
+        padding-top: 190px;
     }
     .for{
         background-image:url(img/Star\ 11.png),url(img/Star\ 12.png) ;
