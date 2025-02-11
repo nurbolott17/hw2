@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+.id{
+  transition: 2s;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -22,10 +24,10 @@ a {
   background-position: right 0px top 0px, 63px 94px, 156px 69px, right 344px bottom 149px, right 455px bottom 225px;
   background-repeat: no-repeat;
 }
+
 .content {
   padding-top: 196px;
 }
-
 .content__title {
   font-size: 64px;
   font-weight: 700;
@@ -262,9 +264,6 @@ a {
     background-position: right 0px top 0px, 37px 97px, 91px 64px, right 34px bottom 79px, right 86px bottom 125px;
     background-repeat: no-repeat;
   }
-  .top__content {
-    padding-top: 147px;
-  }
   .content {
     padding-top: 147px;
   }
@@ -357,7 +356,7 @@ a {
     text-align: left;
   }
   .play-info__btn {
-    width: 255px;
+    width: 285px;
     height: 55px;
     font-size: 16px;
     font-weight: 600;
@@ -384,7 +383,7 @@ a {
     background-image: url(img/Vector.png), url(img/star2.svg), url(img/star3.svg), url(img/star5.svg), url(img/star4.svg);
     background-position: right 0px top 0px, 43px 64px, 116px 49px, right 200px bottom 130px, right 255px bottom 155px;
   }
-  .top__content {
+  .content {
     padding-top: 190px;
   }
   .for {

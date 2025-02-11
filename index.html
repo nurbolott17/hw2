@@ -26,7 +26,7 @@
             <h2 class="information__heading" id="BlockGames">Об играх</h2>
             <p class="information__text">В моей коллекции представлено 6 игр на разные темы. <br>Игры несложные — в них может поиграть каждый. <br> Все игры доступны для пользования.</p>
             <div class="games">
-                <a class="games__game-link" href="#">
+                <a class="games__game-link" href="#play-game1">
                     <article class="game">
                         <img class="game__imeg" src="./img/game1.png" alt="игра №1">
                         <div class="game__info">
@@ -35,7 +35,7 @@
                         </div>
                     </article>
                 </a>
-                <a class="games__game-link games__game-link_big" href="#">
+                <a class="games__game-link games__game-link_big" href="#play-game2">
                     <article class="game">
                         <img class="game__imeg" src="./img/game2.png" alt="игра №2">
                         <div class="game__info">
@@ -45,7 +45,7 @@
                         
                     </article>
                 </a>
-                <a class="games__game-link" href="#">
+                <a class="games__game-link" href="#play-game3">
                     <article class="game">
                         <img class="game__imeg" src="./img/game3.png" alt="игра №3">
                         <div class="game__info">
@@ -55,7 +55,7 @@
                         
                     </article>
                 </a>
-                <a class="games__game-link" href="#">
+                <a class="games__game-link" href="#play-game4">
                     <article class="game">
                         <img class="game__imeg" src="./img/game4.png" alt="игра №4">
                         <div class="game__info">
@@ -65,7 +65,7 @@
                     
                     </article>
                 </a>
-                <a class="games__game-link" href="#">
+                <a class="games__game-link" href="#play-game6">
                     <article class="game">
                         <img class="game__imeg" src="./img/game6.png" alt="игра №6">
                         <div class="game__info">
@@ -75,7 +75,7 @@
     
                     </article>
                 </a>
-                <a class="games__game-link games__game-link_small" href="#">
+                <a class="games__game-link games__game-link_small" href="#play-game5">
                     <article class="game">
                         <img class="game__imeg" src="./img/game5.png" alt="игра №5">
                         <div class="game__info">
@@ -92,17 +92,17 @@
         <section class="block-games center" >
             <h2 class="block-games__heading">Мини-игры</h2>
             <div class="list-games">
-                <a class="list-games__link" href="#">
+                <a class="list-games__link" href="#" id="play-game1">
                     <article class="play" >
                         <div class="play-info">
                             <h3 class="play-info__name">Угадай число</h3>
                             <p class="play-info__description">Попробуй угадать случайное число от 1 до 100.</p> 
-                            <button class="play-info__btn">Играть!</button>
+                            <button class="play-info__btn" onclick="guessTheNumber()">Играть!</button>
                         </div>
                         <img class="play__imeg play__imeg_1" src="./img/playimg1.png" alt="игра №1">    
                     </article >
                 </a>
-                <a class="list-games__link" href="#">
+                <a class="list-games__link" href="#" id="play-game2">
                     <article class="play">
                         <img class="play__imeg" src="./img/playimg2.png" alt="игра №2">
                         <div class="play-info">
@@ -112,7 +112,7 @@
                         </div>
                     </article>
                 </a>
-                <a class="list-games__link" href="#">
+                <a class="list-games__link" href="#" id="play-game3">
                     <article class="play" >
                         <div class="play-info">
                             <h3 class="play-info__name">Переверни текст</h3>
@@ -122,9 +122,9 @@
                         <img class="play__imeg play__imeg_1" src="./img/playimg3.png" alt="игра №3">
                     </article>
                 </a>
-                <a class="list-games__link" href="#">
+                <a class="list-games__link" href="#" id="play-game5">
                     <article class="play">
-                        <img class="play__imeg" src="./img/playimg4.png" alt="игра №4">
+                        <img class="play__imeg" src="./img/playimg4.png" alt="игра №5">
                         <div class="play-info">
                             <h3 class="play-info__name">Викторина</h3>
                             <p class="play-info__description">Отвечай на вопросы викторины <br>с вариантами ответов.</p> 
@@ -132,17 +132,17 @@
                         </div>
                     </article>
                 </a>
-                <a class="list-games__link" href="#">
+                <a class="list-games__link" href="#" id="play-game4">
                     <article class="play">
                         <div class="play-info">
                             <h3 class="play-info__name">Камень, <br>ножницы, <br>бумага</h3>
                             <p class="play-info__description">Сыграй в популярную игру против компьютера.</p> 
                             <button class="play-info__btn">Играть!</button>
                         </div>
-                        <img class="play__imeg play__imeg_1" src="./img/playimg5.png" alt="игра №5">
+                        <img class="play__imeg play__imeg_1" src="./img/playimg5.png" alt="игра №4">
                     </article>
                 </a>
-                <a class="list-games__link" href="#">
+                <a class="list-games__link" href="#" id="play-game6">
                     <article class="play">
                         <img class="play__imeg" src="./img/playimg6.png" alt="игра №6">
                         <div class="play-info">
@@ -155,8 +155,10 @@
             </div>
         </section>
     </div>
+    
     <footer class="footer">
         Все права защищены.
     </footer>   
+    <script src="hw5.js"></script>
 </body>
 </html>
