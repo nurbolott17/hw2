@@ -1,38 +1,10 @@
-const answer = Math.floor((Math.random() * 100) + 1)
-console.log(answer)
-
-function guessTheNumber() {
-    userAnswer = parseInt(prompt('Угадай число то 1 до 100'))
-
-    while (userAnswer !== answer) {
-        
-        if (userAnswer === answer) {
-            
-            break;
-        } else  if (userAnswer > answer){
-            userAnswer = parseInt(prompt('Ты не угадал, число корторую я загодал меньше чем  ' + ' ' + userAnswer))
-            
-        }
-        else if (userAnswer < answer){
-            userAnswer = parseInt(prompt( 'Ты не угадал, число корторую я загодал ,больше чем '+ ' ' + userAnswer))       
-        }
-        else {
-            userAnswer = parseInt(prompt(userAnswer + '- Это не число , напиши число !!! '))
-        }
-        } 
-        alert('Молодец, ты угадал');   
-        console.log('Игра завершена')
-    }    
-
-
-    
 // Задание 1
 
 function minValye(a, b) {
     if (a < b) {
-        return (a);
+        return a;
     } else {
-        return(b)
+        return b
     }
 }
 console.log(minValye(4, 8))
@@ -42,9 +14,9 @@ console.log(minValye(6, 6))
 
 function checkingForParity(a) {
     if (a % 2 === 0) {
-        return ('Число четное')
+        return 'Число четное'
     } else {
-        return ('Число нечетное')
+        return 'Число нечетное'
     }
 }
 console.log(checkingForParity(5))
@@ -54,7 +26,7 @@ console.log(checkingForParity(5))
 
 function numSquared(a){
     b = a ** 2
-    return(b)
+    return b
     
 }
 console.log(numSquared(5))
@@ -79,7 +51,7 @@ function whatAge(age){
 function mult(a, b){
     isNaN(a, b)
     if (isNaN(a, b) === false) {
-        return( a * b)
+        return a * b
     }
      else {
         alert('Одно или оба значения не являются числом');
@@ -95,9 +67,9 @@ function numCube(n) {
     isNaN(n)
     if (isNaN(n) === false) {
 
-        return(n  + ' в кубе равняется ' + n**3 )
+        return n  + ' в кубе равняется ' + n**3 
     } else {
-        return('Переданный параметр не является числом')
+        return 'Переданный параметр не является числом'
     }
 }
 console.log(numCube(prompt('Веди число которую надо возыезсти в куб')))
@@ -106,13 +78,13 @@ console.log(numCube(prompt('Веди число которую надо возы
 // Задание 7
 
 function getArea() {
-    getArea = Math.PI * this.radius**2;
-    return(getArea)
+    S = Math.PI * this.radius**2;
+    return S
     
 }
 function getPerimeter() {
-    getPerimeter = 2 * Math.PI * this.radius;
-    return(getPerimeter)
+    P = 2 * Math.PI * this.radius;
+    return P
 }
 
 const circle1 = {
